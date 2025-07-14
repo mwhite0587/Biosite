@@ -1,4 +1,5 @@
 # Biosite
-Bio Project for web development class.
+CSD 340 Web Development with HTML and CSS
+Contributers
 - Dr. Toni Farley
 - Mallorie White
