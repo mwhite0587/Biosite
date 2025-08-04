@@ -1,76 +1,98 @@
+b
 body {
-    background-color: #ffc0cb;
-    color: #ff1493;
-    font-family: Arial, san-serif;
-    margin: 0;
-    padding: 0;
-} 
-header{
-    background-color: #ff69b4;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-}
-nav ul li {
-    display: inline;
-    margin-right: 1em;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFC0CB;
+  color: #333;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+header {
+  background-color: #FF69B4;
+  padding: 1rem;
+  color: white;
 }
 
-button {
-    background-color: #ff1493;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 1em;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-button:hover {
-    background-color: #ff69b4;
+nav h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
 }
 
-image-container {
-    border: 2px solid #ff69b4;
-    padding: 1em;
-    margin-bottom: 2em;
-    border-radius: 10px;
-    background-color: white;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
-image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-image-container p {
-    margin-top: 0.5em;
-    color: #ff1493;
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F5F5F5;
+  border-bottom: 2px dotted #FF69B4;
 }
 
-a {
-    color: #ff1493;
-    text-decoration: none;
+.hero h2 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 2rem;
+  color: #FF0000;
 }
 
-a:hover {
-    text-decoration: underline;
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
 }
 
 footer {
-    background-color: #ffc0cb;
-    color: #ff1493;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  background-color: #FF69B4;
+  color: white;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
+.portrait {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bio {
+  max-width: 600px;
+}
+
+.bio h3 {
+  font-family: 'Comic Neue', cursive;
+  color: #FF69B4;
+}
